@@ -1,0 +1,136 @@
+@import url(https://fonts.googleapis.com/css?family=Ubuntu);
+
+.header{
+  background-color: #F8EED4;
+  margin: auto;  
+  padding: 10px;
+  font-size: 30px;
+  font-family: Ubuntu;
+}
+
+.title{
+  text-align: center;
+  font-size: 30px;
+  color: #7E6A6F;
+  font-family: Ubuntu;
+}
+
+.search{
+  text-align: center;
+}
+
+.searchBar{
+  margin: 10px;
+  text-align: center;
+  border-radius: 5px;
+  height: 30px;
+  width: 200px;
+  margin-top: 20px;
+}
+
+.resBtn{
+  margin-left: 10px;
+  height: 35px;
+}
+
+form{
+  display: inline-block;
+}
+
+.belowSearch{
+  margin-top: 20px;
+  text-align: center;
+  font-weight: bolder;
+  font-size: larger;
+  font-family: Ubuntu;
+}
+
+.searchResult{
+  visibility: hidden;
+  background-color: #D9D8EC !important;
+}
+
+.resContainer{
+  background-color: #D9D8EC !important;
+  width: auto;
+  height: 700px;
+}
+
+.leftCont{
+  float: left;
+  width: 35%;
+  margin-top: 20px;
+  margin-left: 10%;
+  background-color: #D9D8EC !important;
+}
+
+.rightCont{
+  float: right !important;
+  text-align: left;
+  width: 45%;
+  margin-top: 20px;
+  margin-right: 10%;
+  background-color: #D9D8EC !important;
+}
+
+img{
+  height: 400px !important;
+  border: 5px solid black !important;
+  background-color: #D9D8EC !important;
+}
+
+.resCat, .resArea{
+  font-style: italic;
+  background-color: #D9D8EC !important;
+}
+
+.resRec{
+  text-align: center;
+  font-style: italic;
+  margin-top: 20px;
+  margin-bottom: -10px;
+  background-color: #D9D8EC !important;
+}
+
+.resRecDetails{
+  background-color: #D7D0D0;
+  text-align: center;
+}
+
+.ingMain{
+  margin-top: 20px;
+  font-style: italic;
+  background-color: #D9D8EC !important;
+}
+
+.resIng{
+  height: 250px;
+  overflow: auto;
+  padding-left: 20px;
+  line-height: 30px;
+  background-color: #D7D0D0;
+  font-family: Ubuntu;
+}
+
+.resCatRes, .resAreaRes{
+  font-style: normal !important;
+  float: right !important;
+}
+
+.resCatRes{
+  margin-right: 450px !important;
+}
+
+.resAreaRes{
+  margin-right: 450px !important;
+}
+
+.heart{
+  color: black;
+  float: right;
+  margin-top: -2.5%;
+}
+
+.heart:active{
+  color: red;
+}
